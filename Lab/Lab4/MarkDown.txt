@@ -1,0 +1,4 @@
+- I thought how we can switch the left node with right and vice versa. But first swap would be between the 
+childern of the root, and use recursiong to swap left and right subtrees. 
+
+- I used the swap method and recursion to do this, swapping. 
