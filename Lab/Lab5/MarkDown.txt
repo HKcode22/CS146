@@ -1,0 +1,5 @@
+- The high level approaches I took is that I thought of traversing through the tree to check if the 
+left subtree values are less than the root and if the values in the right subtree are greater than the root.
+
+- I used if statements to check this validations, I made the upper and lower as well to use the value of the root 
+to compare it with left and right subtree values. And I used the recursion method as well.
