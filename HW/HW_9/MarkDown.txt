@@ -1,0 +1,8 @@
+- the high level of approach I took was that for LCA, lowest common ancestor is the lowest node in the tree
+that is the decendant of both p and q
+- So p and q are greater than the current roots value, then the LCA is in the right subtree so I used 
+recursion to go traverse to the right subtree
+- if p and q are less than the current roots value then the LCA is at the left subtree, and then I also
+used recursion as well, recursion on the left child of the root
+-if both p and q are not greater or less than the root, then we return the root because it 
+means the LCA is the root
