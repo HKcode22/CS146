@@ -1,0 +1,8 @@
+- The high level approaches I took to solve this problem was to first understand how list of 
+list of Integers work, and how I could just easily create a index and add node values into the 
+sub list of the bigger list, with the same i index
+- I traversed through the binary tree visiting each tree and assigning it index i using recursion 
+- I traversed through left and right nodes from the root, and added the current node to 
+the sublist matching its i index, and incrementing i by 1 for each recursive call
+I also used paper and pencil to draw out how this recursion of left and right would look like and 
+the assigned index i of each node and the sublist only contains nodes of the same index i 
