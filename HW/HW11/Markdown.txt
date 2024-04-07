@@ -10,4 +10,5 @@ using them for images for the if statment to check if it equals to the originalc
 - if it does then change the color to the new color, if it doesent then go to the next iteration, 
 thus it doesent fill the new color, which makes the neibhors change color or int
 - And I only traversed to the left right up and down of the current coordinations in each iterations
-- In python I used bfs 
+- In python I used bfs queue and similar approach
+
