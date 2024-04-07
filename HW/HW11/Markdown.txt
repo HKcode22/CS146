@@ -1,0 +1,13 @@
+- for java I went for the approach of using dfs which uses stack
+- I used while loop 
+- I saved saved the coordinates of the images into the stack, sr and sc
+- I then popped them out of the stack, saved it into a int of arrays, row and col
+- I thought of how I can use the if statment to check if the current coordinates of images dont equal 
+the originalcolor int then go to the next iteration
+- only change the color if the coordinates that are being traversed are equal originalcolor int
+- using stack push, pushing new coordinates, traversing, and then poping those new coordinates and 
+using them for images for the if statment to check if it equals to the originalcolor
+- if it does then change the color to the new color, if it doesent then go to the next iteration, 
+thus it doesent fill the new color, which makes the neibhors change color or int
+- And I only traversed to the left right up and down of the current coordinations in each iterations
+- In python I used bfs 
