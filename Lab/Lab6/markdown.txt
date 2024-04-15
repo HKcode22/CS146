@@ -1,0 +1,9 @@
+-reading the problem and looking at the slides this problem was pretty difficult to solve because it had 
+alot of thinking to do, this problem is about determining the possibility to finish all courses
+- its uses graphs and we need to use topological sort, I used Khans algorithm, queue
+- I stored the prereq elemnts in graph connecting the second element to the first like a directed line
+  from second node to the first 
+- we represent the course of prereq as a DAG directed acyclic graph, ecah course is a node
+  and each prereq had a edge, we calcualte indegree of each course to find its prereq, performing
+- topological sorting using khans algorithm, only adding nodes that have 0 indegree to the queue keeping
+  track of courses with indegree 0, stored indegree in a int array
