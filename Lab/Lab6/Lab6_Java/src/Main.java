@@ -1,5 +1,4 @@
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
+
 public class Main {
     public static void main(String[] args) {
 
@@ -7,8 +6,7 @@ public class Main {
 
         int numCourses = 2;
         int [][] preq1 = {{1,0}};
-        System.out.println(g.canFinish(numCourses, preq1)); // Output: true
-
+        System.out.println(g.canFinish(numCourses, preq1)); 
         int[][] preq2 = {{1, 0}, {0, 1}};
         System.out.println(g.canFinish(numCourses, preq2));
 
