@@ -1,0 +1,4 @@
+-used hashmap to iterate through array 
+- used it to iterate through the array num and for each element in num
+- check if target -  num exists in hash map, if it does then return the index of num and target - num
+- if not then add num to hash map with index as the value 
