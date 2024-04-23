@@ -1,0 +1,5 @@
+- since I saw there was a solution already on canvas I decided to do some research to learn
+  other ways to solve this problem
+- using iterative way to compare characters from both ends, converting all characters to lowercase
+- using pointers. if characters dont maatch any point the string is not palindorme, if pointers meet or cross eachother without mismatches the string is palindorome
+- reverse preprocessed string, comparing string, if identical then string is palindrome
