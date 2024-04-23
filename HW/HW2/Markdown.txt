@@ -1,0 +1,6 @@
+- using binary search for this problem
+- starting with left and right at target
+- while left is less than right, calculate mid, if the isbasversion is true such as if target 
+is greater than the value then search at the right side
+-else look at the left side
+- time complexity is O(log n) and space is O(log n) and space is O(1)
