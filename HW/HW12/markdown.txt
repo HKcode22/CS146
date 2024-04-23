@@ -1,0 +1,7 @@
+-built a graph using list of list of integer, saved vertex of each pipes, representing houses
+-each pipe represent an edge between two house with weight by the cost of the pipe
+-adding virtual node representing water source, connecting virtual node to all houses that have edges 
+-using prims algorithm, selecting cheapest edege, using mincost updating it, using visted to check which vertex
+have been visted 
+- calculating mincost sum up the costs of the selected edges to get the total minimum total cost
+- using queue as well storing edges based on their weights, keeping track of visited
