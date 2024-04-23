@@ -5,3 +5,5 @@
 have been visted 
 - calculating mincost sum up the costs of the selected edges to get the total minimum total cost
 - using queue as well storing edges based on their weights, keeping track of visited
+- take out the edge with the minimum weight from the queue
+- return mincost
