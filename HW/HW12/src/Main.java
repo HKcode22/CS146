@@ -14,15 +14,5 @@ public class Main {
         System.out.println("minimum cost: " + minCost);
 
 
-//        System.out.println("We can supply water with cost " + minCost + " using one of the following options:");
-//        for (int i = 1; i <= n; i++) {
-//            for (int j = i + 1; j <= n; j++) {
-//                int cost = wells1[i - 1] + wells1[j - 1];
-//                System.out.println("Option " + (i * n + j - n - 1) + ":");
-//                System.out.println("  - Build a well inside house " + i + " with cost " + wells1[i - 1] + ".");
-//                System.out.println("  - Build a well inside house " + j + " with cost " + wells1[j - 1] + ".");
-//                System.out.println("The total cost will be " + cost + ".");
-//            }
-//        }
     }
 }
