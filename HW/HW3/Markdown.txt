@@ -1,0 +1,8 @@
+- using insertion sort, seen from the slides on canvas, sorts the array by 
+sorting the left subarray 
+- Best case is O(n) when the array is already sorted and the inner loop compares 
+- average case O(n^2) when element is compared to every other element before the correct position is found
+and this causes to have a quadratic complexity 
+- worst case O(n^2) is similar to average, when array is sorted in reverse order and has a similar way as average
+- in matrix multiplication I used elements of row of the first matrix and mulitplied it by the looking at the element of column of the second matrix
+- and then summing it up and I think the time is O(n^3) due to having 3 for loops that are inner for loops, nested 3 for loopsa
