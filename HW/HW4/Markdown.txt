@@ -1,0 +1,7 @@
+- time complexity of insertion sort, best case is when the array is already in the correct order
+and the time it will take to sort the list
+- average case is O(n^2) when the elements need to be compared to the other half sorted subarray at the left side to find its correct position, having a O(n^2)
+also theres a for loop and a while loop in the for loop which I think also result in the quadractic form
+-worst case is the similar when the array is sorted in reverse order and each element have to be compared with every other element before it 
+
+- matrix multiplication has a O(n^3) for best average and worst case because of the 3 nested loops iterating over rows and columns and the inner items of matrices
