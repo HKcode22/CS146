@@ -1,0 +1,6 @@
+- iterating through string and count each character using hash map, keeping track of how many times character appears in the string
+- adding their count into the length for the amount of times the characters apear an even number of times which connects to palindrome
+- characters that appear odd times we do count - 1 time and use them in palindrome and add count - 1 to the length
+- using boolean to tracks if there any characters with odd count
+- incrementing the length by 1 if there are characters with odd count 
+- returning the calculated length, representing the length of the longest palindrome 
