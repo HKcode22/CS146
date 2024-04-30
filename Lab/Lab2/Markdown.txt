@@ -1,0 +1,5 @@
+- created two hashmaps to stroe character count for each string 
+- iterate through both first and second string 
+- for first string update count in the first hashmap 
+- for second string update count in the second hashmap
+- compare both of the hashmap and if they are equal the string are anagrams or else theya are not 
