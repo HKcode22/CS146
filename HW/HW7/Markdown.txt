@@ -1,0 +1,5 @@
+- sorting the intervals first based on their start times
+- using priority Queue min heap to keep track of end times of jobs, and the queue helps to find the server that completes the job early
+- iterate through intervals, if min heap is not empty and if start time of current interval is greater or equal to end time then we remove the end time from queue
+- if current interval starts before early finishing job or min heap is empty then add new interval or new server 
+- updating min heap with end time of current job and then returning size of min representing the minimum number of servers 
