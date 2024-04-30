@@ -1,0 +1,5 @@
+-inorder to tackle this problem I first sort the arrays
+- then interate through it using 2 pointers, left and right
+- then checking if the sum equals zero if it does then its a triplet and I put it in the trip list
+- Updated pointers, moving the left pointer to right and the right pointer to the left, if sum is less than zero
+then we increament left and if sum is greater than zero then we decrement the right pointer
