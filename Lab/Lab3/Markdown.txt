@@ -1,0 +1,40 @@
+Problem 1:
+Let's compare some basic math functions to refresh our memory. For each of the following, just write which function is asymptotically greater (So, you should be thinking about your asymptotic notations!). Show your reasoning for the same.
+
+1. 10000000000n^2 vs n^3
+For number 1, 10^9(n^2) is greater than n^3 but the polynomial with the highest degree grows faster 
+asymptotically, so n^3 is asymptotically greater.
+
+2. n^2 log(n) vs n(log(n))^10
+For number 2 same reason since n(log(n))^10 has the highest degree it grows faster asymptotically.
+
+3.nlogn vs 2
+Since 2 is constant it doesent grow so nlogn grows faster asymptotically greater.
+ 
+4. 2^n vs 2^2n
+2^2n grows faster than 2^n because its degree has 2 times n which is greater than n, so 2^2n grows faster asymptotically.
+
+
+
+Problem 2:
+Now let's examine some [pseudo]code and apply asymptotic notation to it. 
+
+isPrime(n): 
+  for(i = 2, i*i <= n; i++) {
+    if(n % i == 0) {
+      return false
+    }
+  return true
+
+What is the 
+
+Best Case
+Worst Case
+Average Case
+Time complexity for the above function? 
+
+- Best Case: too find base I would use math, so the for statment uses i*i <= n, if we do square root both sides
+we get sqaure root of n, so the best case is O(squareroot(n)).
+- Worst Case: the for loop will go from i = 2 to i = squareroot(n), in the worst case the input n is a larger prime number
+and the loop will find the divisor of n or itll reach sqaure of n, so time complexity is O(squareroot(n)).
+- Average Case: average case will also be Big O of square root of n, since it depends on how many prime number are in the range.
