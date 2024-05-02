@@ -1,8 +1,12 @@
 Can we use heaps as priority queues? How so? Write an explanation, with the help of pseudocode/diagrams to support your explanation.
-Yes we can use heaps as priority queues which is a data structure maintaining a set of elements using extract min or max, insterting, and extracting min or max is removing the element and returning it.
-in max heap has a root node which has the maximum element and each parent node has a greater value then the children nodes, with min heap the root has the minimum root value and parent nodes have a less than value than its children node
-priority queue is similar to queue which is an extension of queue with priority factors. 
-To use heaps as priority queues we initialize empty heap, insert element, and to extract highest priority or minimum priority element we remove the root, see what maximum value is in the priority queue without removing it and we can also check the size as well.
+
+- Yes we can use heaps as priority queues which is a data structure maintaining a set of elements using extract min or max, insterting, and extracting min or max is removing the element and returning it.
+
+-in max heap has a root node which has the maximum element and each parent node has a greater value then the children nodes, with min heap the root has the minimum root value and parent nodes have a less than value than its children node
+
+- priority queue is similar to queue which is an extension of queue with priority factors. 
+
+-To use heaps as priority queues we initialize empty heap, insert element, and to extract highest priority or minimum priority element we remove the root, see what maximum value is in the priority queue without removing it and we can also check the size as well.
 
 pseudocode:
 class pq:
@@ -19,9 +23,12 @@ class pq:
  
  
 Given a max heap, is there a way to use the max heap as a min heap, without writing a whole min heap implementation? Is the opposite also true?
-Yes there is a way to use max heap as min and vice versa. One way that I know is initializing the heap, if you use the concept of reversing the order of elements then you'll get max heap without changing anything else but using that concept. If you don't reverse the order of elements then you'll get a min heap.
-Another way is that the logic of min and max heap can be used to switch into any type of heap, for example if you want to switch from max to min you just have to reverse the comparison logic such that the new element should be greater than the parent. The lowest value would be removed from the heap.
-another way is to create a max heap, insert elements into max heap, and then create a min heap using elements of max
+
+- Yes there is a way to use max heap as min and vice versa. One way that I know is initializing the heap, if you use the concept of reversing the order of elements then you'll get max heap without changing anything else but using that concept. If you don't reverse the order of elements then you'll get a min heap.
+
+- Another way is that the logic of min and max heap can be used to switch into any type of heap, for example if you want to switch from max to min you just have to reverse the comparison logic such that the new element should be greater than the parent. The lowest value would be removed from the heap.
+
+- another way is to create a max heap, insert elements into max heap, and then create a min heap using elements of max
 pseudo code:
        function insertMin(element):
            heap.insert(element)
