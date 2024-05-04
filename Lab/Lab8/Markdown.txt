@@ -1,0 +1,10 @@
+- The approach i used was that I created a dp array with the size of the amount 
+- i filled the amount + 1 at each position of the array using for loop
+- I used dynamic program by using an array and breaking the problem into peices to solve it a bit by bit
+- I used each each index and what the index is holding in the array to calculate the minimum amount of coins needed to add up to the target
+- This is probably a bad approach because i thought of changing the dp where each index is like a amount, 
+and each index has minimum amount coins needed to equal to the amount or index
+- and I use two for loops, one for loops loops through the dp, and the second one loops through the coins array
+- we do if i-c<=0 meaning if the difference of the index with the c is less than 0 then we cant change the dp
+- we use dp[i-c] to go back in the array and use that number to increment with number 1 and save it in dp
+- using previous numbers in the array to get the minimum amount 
